@@ -1,0 +1,11 @@
+{
+    "mongodb": {
+      "server": "cluster0.eaqta.mongodb.net",
+      "database": "myFirstDatabase?retryWrites=true&w=majority",
+      "user": "web4",
+      "password": "minticweb"
+    }
+  }
+
+
+

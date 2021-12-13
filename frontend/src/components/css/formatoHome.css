@@ -1,0 +1,236 @@
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+table{
+    text-align: center;
+    width:75%;
+    
+  margin:auto;
+  border-bottom-color: black;   
+
+}
+  
+
+.home{
+  padding-top: 100px;
+
+ 
+}
+
+.table tr{
+    border-bottom-color: black;
+}
+
+.tituloHome{
+    text-align: center;
+}
+
+.login-screen{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+.login-screen__form{
+  padding: 1.5rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  background: #fff;
+}
+.forgotpassword-screen{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forgotpassword-screen__form{
+   width: 25%;
+   padding: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    background: #fff;
+}
+    .forgotpassword-screen__title {
+        text-align: center;
+        margin-bottom: 1rem;
+       
+      }
+      
+      .forgotpassword-screen__subtext {
+        
+        display: block;
+        margin: 0.5rem 0;
+      }
+      #forgot{
+      
+   
+        align-items: center;
+        width: 100%;
+       
+      }
+       .emailforgot{
+          width: 100%;
+      }
+
+      .register-screen {
+
+        padding-top: 30px;
+            width: 100%;
+            height: 85%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          
+          .register-screen__form {
+            
+            width: 380px;
+            padding: 1.5rem;
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+            background: #fff;
+          }
+          
+          .register-screen__title {
+            text-align: center;
+            margin-bottom: 1rem;
+          }
+          
+
+          input{
+            background-color: lightgrey;
+            border-radius: 25px;
+            border:none;
+            font-size: 14px;
+            width: 100%;
+          }
+
+          .list{
+            background-color: lightgrey;
+            border-radius: 25px;
+            border:none;
+            font-size: 14px;
+            width: 100%;
+          }
+
+          .resetpassword-screen {
+           
+            width: 100%;
+            height: 85%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+            
+            .resetpassword-screen__form {
+              width: 380px;
+              padding: 1.5rem;
+              box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+              background: #fff;
+            }
+            
+            .resetpassword-screen__title {
+              text-align: center;
+              margin-bottom: 1rem;
+            }
+
+            .error-message {
+                width: 100%;
+                display: inline-block;
+                padding: 5px;
+                background: red;
+                color: #fff;
+                text-align: center;
+                margin: 0.5rem 0;
+              }
+              
+              .success-message {
+                width: 100%;
+                display: inline-block;
+                padding: 5px;
+                background: green;
+                color: #fff;
+                text-align: center;
+                margin: 0.5rem 0;
+              }
+
+              #logout{
+  
+    
+                color: white;
+               
+                border: none;
+                text-align: center;
+              
+                text-decoration: none;
+                font-size: 17px;
+              
+              }
+
+              #footer {
+                position:fixed;
+                bottom: 0;
+                width: 100%;
+               
+            }
+
+
+            li {
+              display: block;
+              transition-duration: 0.5s;
+             }
+             
+             li:hover {
+               cursor: pointer;
+             }
+             
+             ul li ul {
+               visibility: hidden;
+               opacity: 0;
+               position: absolute;
+               transition: all 0.5s ease;
+               margin-top: 0;
+               left: 0;
+               display: none;
+             }
+             
+             ul li:hover > ul,
+             ul li ul:hover {
+               visibility: visible;
+               opacity: 1;
+               display: block;
+             }
+             
+             ul li ul li {
+               clear: both;
+               width: 75%;
+             }
+             #axis{
+               color:white;
+               font-weight:bolder ;
+            
+             }
+
+             #login{
+               width:100%;
+             }
+
+             #google{
+              width:100%;
+              background-color: black;
+              border: none;
+            }
